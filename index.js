@@ -237,7 +237,7 @@ function showMinionCelebration() {
     for (let i = 0; i < 10; i++) {
         setTimeout(() => {
             const minion = document.createElement('img');
-            minion.src = './img/minion.png';
+            minion.src = '../img/minion.png';
             minion.classList.add('minion-celebration');
             
             const left = Math.random() * 80 + 10;
